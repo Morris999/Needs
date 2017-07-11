@@ -13,10 +13,9 @@ class CameraController: UIViewController, AVCapturePhotoCaptureDelegate, UIViewC
     
     let dismissButton: UIButton = {
         let button = UIButton(type: .system)
-        button.backgroundColor = .red
-        print("another merge conflict test")
         button.setImage(#imageLiteral(resourceName: "right_arrow_shadow"), for: .normal)
         button.addTarget(self, action: #selector(handleDismiss), for: .touchUpInside)
+        print("Morris is testing..")
         return button
     }()
     
