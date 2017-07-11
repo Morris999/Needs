@@ -13,10 +13,8 @@ class CameraController: UIViewController, AVCapturePhotoCaptureDelegate, UIViewC
     
     let dismissButton: UIButton = {
         let button = UIButton(type: .system)
-        print ("Morris test print")
         button.setImage(#imageLiteral(resourceName: "right_arrow_shadow"), for: .normal)
         button.addTarget(self, action: #selector(handleDismiss), for: .touchUpInside)
-        print ("Joe Yu test branch")
         return button
     }()
     
