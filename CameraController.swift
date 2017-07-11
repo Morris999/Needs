@@ -15,6 +15,8 @@ class CameraController: UIViewController, AVCapturePhotoCaptureDelegate, UIViewC
         let button = UIButton(type: .system)
         button.setImage(#imageLiteral(resourceName: "right_arrow_shadow"), for: .normal)
         button.addTarget(self, action: #selector(handleDismiss), for: .touchUpInside)
+        print("Morris is testing..")
+        print("Morris second attempt")
         return button
     }()
     
