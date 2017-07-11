@@ -54,6 +54,7 @@ class CameraController: UIViewController, AVCapturePhotoCaptureDelegate, UIViewC
     }
     
     override var prefersStatusBarHidden: Bool {
+        print("test Morris git")
         return true
     }
     
