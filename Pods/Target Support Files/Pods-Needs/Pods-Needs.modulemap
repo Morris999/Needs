@@ -1,0 +1,6 @@
+framework module Pods_Needs {
+  umbrella header "Pods-Needs-umbrella.h"
+
+  export *
+  module * { export * }
+}
